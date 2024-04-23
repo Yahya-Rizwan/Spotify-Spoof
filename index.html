@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify"> Spotify</li>
+            <li>home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    <div class = "container">
+        <div class = "songlist">
+            <h1>Best of Nasheeds - no copyright</h1>  
+            <div class="songitemcon">
+                <div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Ana Maradun</span>
+                    <span class="songlistplay"><span class="timestamp">04:25 <i id="1" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Chal Deen ki tabligh</span>
+                    <span class="songlistplay"><span class="timestamp">07:31 <i id = "2"class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Dil badal de</span>
+                    <span class="songlistplay"><span class="timestamp">06:02 <i id="3" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Hasbi Rabbi</span>
+                    <span class="songlistplay"><span class="timestamp">04:46 <i id="4" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Maula ya salli</span>
+                    <span class="songlistplay"><span class="timestamp">04:32 <i id="5" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Soldiers of Allah</span>
+                    <span class="songlistplay"><span class="timestamp">04:35 <i id="6" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div><div class="songitem">
+                    <img src="nasheedcover2.jpeg" alt = "1">
+                    <span>Way of tears</span>
+                    <span class="songlistplay"><span class="timestamp">04:25 <i id="7" class="fa-solid songitemplay fa-circle-play"></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="bar" min="0" value="0" max="100">
+        <div class="icon">
+            <i class="fa-solid fa-backward-step"id = "previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step"id = "next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" id="gif"> <span id="mastersonginfo"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c3eebb8213.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
